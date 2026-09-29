@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Citation metadata draft for author review; no public release or DOI has been assigned."
+title: "SHIFT-QC reproducibility software"
+type: software
+version: "1.0.0"
+authors:
+  - family-names: Eraslan
+    given-names: "Feti Çağrı"
+    affiliation: "Istanbul University, Faculty of Computer and Information Technologies"
+    orcid: "https://orcid.org/0009-0001-9358-0563"
+license: MIT

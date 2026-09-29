@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.egg-info/
+.env
+.env.*
+/data/
+local_inputs/
+local_outputs/
+*.nii
+*.nii.gz
+*.dcm
+*.pth
+*.joblib

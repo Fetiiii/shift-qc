@@ -1,0 +1,95 @@
+{
+  "task": "TASK-008",
+  "experiment_id": "EXP-0002",
+  "inputs": {
+    "segmentation_metrics": {
+      "path": "local_inputs/segmentation_metrics.parquet"
+    },
+    "qc_features": {
+      "path": "local_inputs/qc_features.parquet"
+    }
+  },
+  "outputs": {
+    "predictions": "local_outputs/qc_predictions.parquet",
+    "metrics": "local_outputs/qc_metrics.json",
+    "models_directory": "local_outputs/qc_models"
+  },
+  "target": "dice_macro",
+  "fit_split": "QC_TRAIN",
+  "evaluation_splits": [
+    "CALIBRATION",
+    "ID_TEST",
+    "OOD_DEV"
+  ],
+  "feature_columns": [
+    "entropy_mean",
+    "entropy_p90",
+    "entropy_p95",
+    "confidence_mean",
+    "confidence_p10",
+    "foreground_fraction",
+    "class1_fraction",
+    "class2_fraction",
+    "class3_fraction",
+    "components_class1",
+    "components_class2",
+    "components_class3",
+    "largest_component_fraction_class1",
+    "largest_component_fraction_class2",
+    "largest_component_fraction_class3"
+  ],
+  "seed": 2026,
+  "qc0": {
+    "strategy": "mean"
+  },
+  "qc1_ridge": {
+    "pipeline": [
+      "StandardScaler",
+      "Ridge"
+    ],
+    "cv": {
+      "type": "KFold",
+      "n_splits": 5,
+      "shuffle": true,
+      "random_state": 2026,
+      "scoring": "neg_mean_absolute_error"
+    },
+    "alpha_grid": [
+      0.0001,
+      0.0003,
+      0.001,
+      0.003,
+      0.01,
+      0.03,
+      0.1,
+      0.3,
+      1.0,
+      3.0,
+      10.0,
+      30.0,
+      100.0,
+      300.0,
+      1000.0,
+      3000.0,
+      10000.0
+    ]
+  },
+  "qc2_hgb": {
+    "loss": "squared_error",
+    "learning_rate": 0.1,
+    "max_iter": 100,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20,
+    "l2_regularization": 0.0,
+    "random_state": 2026
+  },
+  "prediction_clipping": false,
+  "primary_model": "qc1_ridge",
+  "metrics": [
+    "mae",
+    "rmse",
+    "spearman",
+    "pearson"
+  ],
+  "release_template_note": "Input fingerprints/observed counts excluded; locally regenerate inputs/role counts. Frozen scientific hyperparameters unchanged."
+}

@@ -1,0 +1,77 @@
+{
+  "scientific_authority_commit": "10baa3212679f3e15116abde7050d4f6e474288e",
+  "registered_estimands": [
+    "R5 unchanged prediction",
+    "R8 target-label-assisted oracle"
+  ],
+  "method_constant_sources": [
+    {
+      "name": "BOOTSTRAP_RESAMPLES",
+      "source_path": "src/shiftqc/confirmatory/common.py",
+      "source_sha256": "7fd43a0d489559eefbb14e8b3dfaabe040c64d4e59c95387790e4bfc53ea3c9e",
+      "expression": "BOOTSTRAP_RESAMPLES = 2000"
+    },
+    {
+      "name": "BOOTSTRAP_SEED",
+      "source_path": "src/shiftqc/confirmatory/common.py",
+      "source_sha256": "7fd43a0d489559eefbb14e8b3dfaabe040c64d4e59c95387790e4bfc53ea3c9e",
+      "expression": "BOOTSTRAP_SEED = 2026"
+    },
+    {
+      "name": "CONFIDENCE_LEVEL",
+      "source_path": "src/shiftqc/confirmatory/common.py",
+      "source_sha256": "7fd43a0d489559eefbb14e8b3dfaabe040c64d4e59c95387790e4bfc53ea3c9e",
+      "expression": "CONFIDENCE_LEVEL = 0.95"
+    },
+    {
+      "name": "CROSSFIT_FOLDS",
+      "source_path": "src/shiftqc/confirmatory/common.py",
+      "source_sha256": "7fd43a0d489559eefbb14e8b3dfaabe040c64d4e59c95387790e4bfc53ea3c9e",
+      "expression": "CROSSFIT_FOLDS = 5"
+    },
+    {
+      "name": "CROSSFIT_SEEDS",
+      "source_path": "src/shiftqc/confirmatory/common.py",
+      "source_sha256": "7fd43a0d489559eefbb14e8b3dfaabe040c64d4e59c95387790e4bfc53ea3c9e",
+      "expression": "CROSSFIT_SEEDS = tuple(range(2026, 2036))"
+    },
+    {
+      "name": "CONFORMAL_ALPHA",
+      "source_path": "src/shiftqc/confirmatory/common.py",
+      "source_sha256": "7fd43a0d489559eefbb14e8b3dfaabe040c64d4e59c95387790e4bfc53ea3c9e",
+      "expression": "CONFORMAL_ALPHA = 0.10"
+    },
+    {
+      "name": "IRLS_ITERATIONS",
+      "source_path": "src/shiftqc/confirmatory/common.py",
+      "source_sha256": "7fd43a0d489559eefbb14e8b3dfaabe040c64d4e59c95387790e4bfc53ea3c9e",
+      "expression": "IRLS_ITERATIONS = 80"
+    },
+    {
+      "name": "IRLS_EPSILON",
+      "source_path": "src/shiftqc/confirmatory/common.py",
+      "source_sha256": "7fd43a0d489559eefbb14e8b3dfaabe040c64d4e59c95387790e4bfc53ea3c9e",
+      "expression": "IRLS_EPSILON = 1e-9"
+    },
+    {
+      "name": "RIDGE_ALPHA_GRID",
+      "source_path": "src/shiftqc/validation2/qc_model.py",
+      "source_sha256": "ce22be505d11843d00a33ebe98dd88aa1001f1bea76b3ae72d5ae88a08038fa1",
+      "expression": "RIDGE_ALPHA_GRID = (\n    0.0001, 0.0003, 0.001, 0.003, 0.01, 0.03, 0.1, 0.3, 1.0,\n    3.0, 10.0, 30.0, 100.0, 300.0, 1000.0, 3000.0, 10000.0,\n)"
+    },
+    {
+      "name": "QC_CV_FOLDS",
+      "source_path": "src/shiftqc/validation2/qc_model.py",
+      "source_sha256": "ce22be505d11843d00a33ebe98dd88aa1001f1bea76b3ae72d5ae88a08038fa1",
+      "expression": "QC_CV_FOLDS = 5"
+    },
+    {
+      "name": "QC_CV_SEED",
+      "source_path": "src/shiftqc/validation2/qc_model.py",
+      "source_sha256": "ce22be505d11843d00a33ebe98dd88aa1001f1bea76b3ae72d5ae88a08038fa1",
+      "expression": "QC_CV_SEED = 2026"
+    }
+  ],
+  "result_values_included": false,
+  "patient_split_identities_included": false
+}

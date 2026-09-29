@@ -1,0 +1,10 @@
+# Python 3.12.13 lightweight review pins: source lock plus pyproject build requirement.
+setuptools==80.9.0
+numpy==1.26.4
+scipy==1.13.1
+pandas==3.0.5
+scikit-learn==1.9.0
+nibabel==5.4.2
+SimpleITK==2.5.6
+matplotlib==3.11.1
+pytest==9.1.1

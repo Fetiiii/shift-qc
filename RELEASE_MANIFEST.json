@@ -1,0 +1,1853 @@
+{
+  "manifest_version": 2,
+  "candidate_name": "SHIFT-QC code-only software release candidate",
+  "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+  "scientific_authority_commit": "10baa3212679f3e15116abde7050d4f6e474288e",
+  "release_status": "READY_FOR_CODE_ONLY_PUBLIC_PUSH_REVIEW",
+  "software_license": "MIT_ORIGINAL_SOURCE_ONLY",
+  "other_material_rights": "ALL_RIGHTS_RESERVED_AUTHORIZED_PUBLIC_DISTRIBUTION",
+  "publication_authorized": false,
+  "patient_derived_artifacts_included": false,
+  "source_data_reproduction": "DOCUMENTED_REQUIRES_ORIGINAL_DATA",
+  "manifest_self_reference": "Detached own hash/size recorded in internal whitelist.",
+  "files": [
+    {
+      "path": "pyproject.toml",
+      "sha256": "6e40500d335a33b651806fd2c5e7d9b1926cbecaed504d2371e8dc1be1f34496",
+      "size": 532,
+      "source_authoritative_path": "pyproject.toml",
+      "source_sha256": "f321e31eb9596b08bf90a2aacd4ee373c9ec98cc26dfe71ce732e01991340a9b",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "SANITIZED_DERIVATIVE",
+      "category": "ENVIRONMENT",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/__init__.py",
+      "sha256": "4df8d2e1e65c76a3dfb7553a50a49aaae8c4d6ac84108d7a2a1cdb8471d20d1b",
+      "size": 95,
+      "source_authoritative_path": "src/shiftqc/__init__.py",
+      "source_sha256": "4df8d2e1e65c76a3dfb7553a50a49aaae8c4d6ac84108d7a2a1cdb8471d20d1b",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/confirmatory/__init__.py",
+      "sha256": "2ded3d8ad40e8c552e2f257b4ac0945c87d1bbedde3c4d36a05a38ac49f02113",
+      "size": 390,
+      "source_authoritative_path": "src/shiftqc/confirmatory/__init__.py",
+      "source_sha256": "2ded3d8ad40e8c552e2f257b4ac0945c87d1bbedde3c4d36a05a38ac49f02113",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/confirmatory/common.py",
+      "sha256": "7fd43a0d489559eefbb14e8b3dfaabe040c64d4e59c95387790e4bfc53ea3c9e",
+      "size": 4669,
+      "source_authoritative_path": "src/shiftqc/confirmatory/common.py",
+      "source_sha256": "7fd43a0d489559eefbb14e8b3dfaabe040c64d4e59c95387790e4bfc53ea3c9e",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/confirmatory/bootstrap.py",
+      "sha256": "9d2a25be00bfaceb8962c290006107f981a499f9a6d763d2b05cc66343eeb153",
+      "size": 6002,
+      "source_authoritative_path": "src/shiftqc/confirmatory/bootstrap.py",
+      "source_sha256": "9d2a25be00bfaceb8962c290006107f981a499f9a6d763d2b05cc66343eeb153",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/confirmatory/skill.py",
+      "sha256": "f9ca224ade996729bdd894ed333e4d4a7488c4e5d530931449bf7eff62a71cb0",
+      "size": 2223,
+      "source_authoritative_path": "src/shiftqc/confirmatory/skill.py",
+      "source_sha256": "f9ca224ade996729bdd894ed333e4d4a7488c4e5d530931449bf7eff62a71cb0",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/confirmatory/competence.py",
+      "sha256": "ada01246f4089a98b7cfc2a26874ccccd995638e4967099fb7e023e99f118718",
+      "size": 3092,
+      "source_authoritative_path": "src/shiftqc/confirmatory/competence.py",
+      "source_sha256": "ada01246f4089a98b7cfc2a26874ccccd995638e4967099fb7e023e99f118718",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/confirmatory/recalibration.py",
+      "sha256": "024db103b63c3d32a78c144375d84e31f9e6a4759b23e8444d1f3609a94b680d",
+      "size": 4851,
+      "source_authoritative_path": "src/shiftqc/confirmatory/recalibration.py",
+      "source_sha256": "024db103b63c3d32a78c144375d84e31f9e6a4759b23e8444d1f3609a94b680d",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/confirmatory/r5.py",
+      "sha256": "b01bbca74cd719347344bd32a57d31829354f77f08b892deaa7c98a7971844c0",
+      "size": 4289,
+      "source_authoritative_path": "src/shiftqc/confirmatory/r5.py",
+      "source_sha256": "b01bbca74cd719347344bd32a57d31829354f77f08b892deaa7c98a7971844c0",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/confirmatory/r8.py",
+      "sha256": "40ebbc93f234a83a80e620519308a83cafd77a40e423f816603d6f833b58af12",
+      "size": 4981,
+      "source_authoritative_path": "src/shiftqc/confirmatory/r8.py",
+      "source_sha256": "40ebbc93f234a83a80e620519308a83cafd77a40e423f816603d6f833b58af12",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/validation2/__init__.py",
+      "sha256": "70349a692172a6847ef4a4160631a050616dc665888dfb92d2869754d3fabea6",
+      "size": 1117,
+      "source_authoritative_path": "src/shiftqc/validation2/__init__.py",
+      "source_sha256": "70349a692172a6847ef4a4160631a050616dc665888dfb92d2869754d3fabea6",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/validation2/freeze.py",
+      "sha256": "0338084e6eec2e771b2c4fe53f3644fb0d9ca4e6523136dffc483437fd421848",
+      "size": 5706,
+      "source_authoritative_path": "src/shiftqc/validation2/freeze.py",
+      "source_sha256": "0338084e6eec2e771b2c4fe53f3644fb0d9ca4e6523136dffc483437fd421848",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/validation2/contracts.py",
+      "sha256": "a3a5d20bdbf2252d981c5928f147ab46f0055bd5db941c5af11bb42ed284a407",
+      "size": 6458,
+      "source_authoritative_path": "src/shiftqc/validation2/contracts.py",
+      "source_sha256": "a3a5d20bdbf2252d981c5928f147ab46f0055bd5db941c5af11bb42ed284a407",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/validation2/features.py",
+      "sha256": "b5ae9c9e8f10960e9865601025910ecb07105774a7c6239fa0d2b4075921754d",
+      "size": 4908,
+      "source_authoritative_path": "src/shiftqc/validation2/features.py",
+      "source_sha256": "b5ae9c9e8f10960e9865601025910ecb07105774a7c6239fa0d2b4075921754d",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/validation2/quality.py",
+      "sha256": "ae57b8e00c662373483c94b573abe7f93030cd0bcf46a88b698b586b23a84c09",
+      "size": 1380,
+      "source_authoritative_path": "src/shiftqc/validation2/quality.py",
+      "source_sha256": "ae57b8e00c662373483c94b573abe7f93030cd0bcf46a88b698b586b23a84c09",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/validation2/qc_model.py",
+      "sha256": "ce22be505d11843d00a33ebe98dd88aa1001f1bea76b3ae72d5ae88a08038fa1",
+      "size": 3404,
+      "source_authoritative_path": "src/shiftqc/validation2/qc_model.py",
+      "source_sha256": "ce22be505d11843d00a33ebe98dd88aa1001f1bea76b3ae72d5ae88a08038fa1",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/validation2/endpoints.py",
+      "sha256": "56edaf247908ed5d14da4479cf76ac421cb9a9a0c6c4502e07d45c2b4eaf1571",
+      "size": 3036,
+      "source_authoritative_path": "src/shiftqc/validation2/endpoints.py",
+      "source_sha256": "56edaf247908ed5d14da4479cf76ac421cb9a9a0c6c4502e07d45c2b4eaf1571",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/qc/__init__.py",
+      "sha256": "db7ad498d44113082ed34d741572e42e990613e3f09ac7b9247bb64c21b9c69f",
+      "size": 481,
+      "source_authoritative_path": "src/shiftqc/qc/__init__.py",
+      "source_sha256": "db7ad498d44113082ed34d741572e42e990613e3f09ac7b9247bb64c21b9c69f",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/qc/baselines.py",
+      "sha256": "5eea3512fb4ef6417ac6796ab5eb9811aef502cc9d4e0b16f2585ecea28df887",
+      "size": 9476,
+      "source_authoritative_path": "src/shiftqc/qc/baselines.py",
+      "source_sha256": "5eea3512fb4ef6417ac6796ab5eb9811aef502cc9d4e0b16f2585ecea28df887",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/qc/m3_deployment.py",
+      "sha256": "474b46e1b6187682b3807e8646adb914841f15483824f9ca46e4b8b0f4410151",
+      "size": 9911,
+      "source_authoritative_path": "src/shiftqc/qc/m3_deployment.py",
+      "source_sha256": "474b46e1b6187682b3807e8646adb914841f15483824f9ca46e4b8b0f4410151",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/qc/m3_inputs.py",
+      "sha256": "6e9e2013522f27e0f9b925623e80598ddf8be3f008cd8ea5d4e0f8aec46d9b9c",
+      "size": 10637,
+      "source_authoritative_path": "src/shiftqc/qc/m3_inputs.py",
+      "source_sha256": "6e9e2013522f27e0f9b925623e80598ddf8be3f008cd8ea5d4e0f8aec46d9b9c",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/features/ground_truth_free.py",
+      "sha256": "eb5c400f9776748168505e55707c79498da25ddcf6c3f8b540f782b7d98d29c2",
+      "size": 9034,
+      "source_authoritative_path": "src/shiftqc/features/ground_truth_free.py",
+      "source_sha256": "eb5c400f9776748168505e55707c79498da25ddcf6c3f8b540f782b7d98d29c2",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/metrics/segmentation.py",
+      "sha256": "2ce88b6c2ce0568430cc76e4f5d1a71604d170f382fc3d905781b95072f9d1da",
+      "size": 7328,
+      "source_authoritative_path": "src/shiftqc/metrics/segmentation.py",
+      "source_sha256": "2ce88b6c2ce0568430cc76e4f5d1a71604d170f382fc3d905781b95072f9d1da",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/conformal/__init__.py",
+      "sha256": "b10c749f7f6b1a4303ecaa80841aabca3cdbd2b91161de13cb58ffce143da610",
+      "size": 525,
+      "source_authoritative_path": "src/shiftqc/conformal/__init__.py",
+      "source_sha256": "b10c749f7f6b1a4303ecaa80841aabca3cdbd2b91161de13cb58ffce143da610",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/conformal/split.py",
+      "sha256": "ac063acd1d043f2ca9ac5e921b175dc2c908d471cbad9e459026ecf41c927c61",
+      "size": 7079,
+      "source_authoritative_path": "src/shiftqc/conformal/split.py",
+      "source_sha256": "ac063acd1d043f2ca9ac5e921b175dc2c908d471cbad9e459026ecf41c927c61",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/support/scores.py",
+      "sha256": "42be0f1b25b2bec32f35d78b9df564efd150df96167934aeaaf1f2f75e19987f",
+      "size": 7175,
+      "source_authoritative_path": "src/shiftqc/support/scores.py",
+      "source_sha256": "42be0f1b25b2bec32f35d78b9df564efd150df96167934aeaaf1f2f75e19987f",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "tests/fixtures/confirmatory_golden.json",
+      "sha256": "4b112198e5ab3e399fdf86ef070d16638eba4dce7b25fe73bec812eff6076d6e",
+      "size": 944,
+      "source_authoritative_path": "tests/fixtures/confirmatory_golden.json",
+      "source_sha256": "4b112198e5ab3e399fdf86ef070d16638eba4dce7b25fe73bec812eff6076d6e",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "TEST",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "tests/test_confirmatory_recalibration_r5_r8.py",
+      "sha256": "5eec8d8393e1fd77bc4a377740bd2ac762fe64dee033197e00131b4879735370",
+      "size": 5717,
+      "source_authoritative_path": "tests/test_confirmatory_recalibration_r5_r8.py",
+      "source_sha256": "5eec8d8393e1fd77bc4a377740bd2ac762fe64dee033197e00131b4879735370",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "TEST",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "tests/test_confirmatory_common_competence.py",
+      "sha256": "b24a47a76e68d20f7b35fabdd40d3a3383b95dce630714af242f15a2636d14a1",
+      "size": 5314,
+      "source_authoritative_path": "tests/test_confirmatory_common_competence.py",
+      "source_sha256": "b24a47a76e68d20f7b35fabdd40d3a3383b95dce630714af242f15a2636d14a1",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "TEST",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "tests/test_validation2_contracts.py",
+      "sha256": "6e00b393ea3c1657783694a1a85d8455fd8b76da244ef3f2837a6e4d7a1f091b",
+      "size": 3667,
+      "source_authoritative_path": "tests/test_validation2_contracts.py",
+      "source_sha256": "6e00b393ea3c1657783694a1a85d8455fd8b76da244ef3f2837a6e4d7a1f091b",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "TEST",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "tests/test_task036_extractor_slicing.py",
+      "sha256": "ee4b28fda3d465d4a4382826f064947fe0cbb3e26bfb7031b6c1ca18e939e9da",
+      "size": 5789,
+      "source_authoritative_path": "tests/test_task036_extractor_slicing.py",
+      "source_sha256": "ee4b28fda3d465d4a4382826f064947fe0cbb3e26bfb7031b6c1ca18e939e9da",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "TEST",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "tests/test_task021_m3_qc_inputs.py",
+      "sha256": "7f024e568d60dc006531b4d32894500117fad36dccb4c76dd78d309e183f2662",
+      "size": 13027,
+      "source_authoritative_path": "tests/test_task021_m3_qc_inputs.py",
+      "source_sha256": "7f024e568d60dc006531b4d32894500117fad36dccb4c76dd78d309e183f2662",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "TEST",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "tests/test_task022_023_m3_deployment.py",
+      "sha256": "cb1c0177f1f5dfea13a820c77dd6ab310b0d5c1ae692f53fe8b43dcb20e3687c",
+      "size": 11908,
+      "source_authoritative_path": "tests/test_task022_023_m3_deployment.py",
+      "source_sha256": "e119c68aac5ceb171aa9023fd29684168046fa07b4d0eda13309b73ef0b3afaa",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "SANITIZED_DERIVATIVE",
+      "category": "TEST",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "tests/test_qc_baselines.py",
+      "sha256": "13513505901312ba3963cfdabd66cb10d506d0588996185c705d911bbea31ad8",
+      "size": 6067,
+      "source_authoritative_path": "tests/test_qc_baselines.py",
+      "source_sha256": "74f7055fe7e301d40475cca5a074ce14f567c28692f097fcce04084e68016c3c",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "SANITIZED_DERIVATIVE",
+      "category": "TEST",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "scripts/audit_mnms_task018.py",
+      "sha256": "a4449365aa778c70137568bdd01c921fc53f15ad4555f49f7a0a307f4316b971",
+      "size": 6136,
+      "source_authoritative_path": "scripts/audit_mnms_task018.py",
+      "source_sha256": "a4449365aa778c70137568bdd01c921fc53f15ad4555f49f7a0a307f4316b971",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "scripts/create_mnms_m3_split_task019.py",
+      "sha256": "1cb1fe75a6b4d9d5712816bcd2617a29b9f53394e4a46c869c60fe020dee3c75",
+      "size": 12734,
+      "source_authoritative_path": "scripts/create_mnms_m3_split_task019.py",
+      "source_sha256": "1cb1fe75a6b4d9d5712816bcd2617a29b9f53394e4a46c869c60fe020dee3c75",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "scripts/run_task020a_mnms_export_planning.py",
+      "sha256": "a212f5cf6209e184f1ecbcb32165cca6de8a380405e59f0c81e2bb846f088c71",
+      "size": 20891,
+      "source_authoritative_path": "scripts/run_task020a_mnms_export_planning.py",
+      "source_sha256": "a212f5cf6209e184f1ecbcb32165cca6de8a380405e59f0c81e2bb846f088c71",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "scripts/preprocess_task020b.py",
+      "sha256": "adb4546f98ae63bbfae5fe96ec65160c8a3cd2ca221c1e0fdca4ba0a005ede7a",
+      "size": 7714,
+      "source_authoritative_path": "scripts/preprocess_task020b.py",
+      "source_sha256": "adb4546f98ae63bbfae5fe96ec65160c8a3cd2ca221c1e0fdca4ba0a005ede7a",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "scripts/train_task020c.py",
+      "sha256": "ceaf0bb9f93ce6b0522fd01ce7b6ca64d290a754303e359c0704a5123fd4ecb7",
+      "size": 16909,
+      "source_authoritative_path": "scripts/train_task020c.py",
+      "source_sha256": "ceaf0bb9f93ce6b0522fd01ce7b6ca64d290a754303e359c0704a5123fd4ecb7",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "scripts/infer_task020c.py",
+      "sha256": "d25b40f494f94d5d90b6f1bd7473656d6cd0942fde76c63904119e43bca21e94",
+      "size": 13458,
+      "source_authoritative_path": "scripts/infer_task020c.py",
+      "source_sha256": "d25b40f494f94d5d90b6f1bd7473656d6cd0942fde76c63904119e43bca21e94",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "scripts/validation2_preflight_inventory.py",
+      "sha256": "d85f65657215236eb98dca0455e212af924c61255a902f9f9c944fc347ecdd7d",
+      "size": 18097,
+      "source_authoritative_path": "scripts/validation2_preflight_inventory.py",
+      "source_sha256": "d85f65657215236eb98dca0455e212af924c61255a902f9f9c944fc347ecdd7d",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "scripts/task033_freeze_validation2.py",
+      "sha256": "46faa58f0e92e4f09d9fbdc9041150dcebd8f70a7c400eb22f71a4ea407fa335",
+      "size": 5197,
+      "source_authoritative_path": "scripts/task033_freeze_validation2.py",
+      "source_sha256": "46faa58f0e92e4f09d9fbdc9041150dcebd8f70a7c400eb22f71a4ea407fa335",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "scripts/task034_prepare_segmentation.py",
+      "sha256": "26b1b212af03fb6a69d30f9b1f26be32b024e2160fe03ed033a2e38c5575dc9c",
+      "size": 10334,
+      "source_authoritative_path": "scripts/task034_prepare_segmentation.py",
+      "source_sha256": "26b1b212af03fb6a69d30f9b1f26be32b024e2160fe03ed033a2e38c5575dc9c",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "scripts/task034_train_fold.py",
+      "sha256": "e68948e1b93773b078ff9655819472b244f2f5fc91f1bde3fe9029f65928909b",
+      "size": 7766,
+      "source_authoritative_path": "scripts/task034_train_fold.py",
+      "source_sha256": "e68948e1b93773b078ff9655819472b244f2f5fc91f1bde3fe9029f65928909b",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "scripts/task034_oof_inference.py",
+      "sha256": "0edbe8596d4970f94b87b226624a5c0e9499a30a134fc02da25fbb4cf977cdef",
+      "size": 4393,
+      "source_authoritative_path": "scripts/task034_oof_inference.py",
+      "source_sha256": "0edbe8596d4970f94b87b226624a5c0e9499a30a134fc02da25fbb4cf977cdef",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/data/mnms_audit.py",
+      "sha256": "08474954ec10c43a8612ba283775bdf02da270c5fb5c39079ab3c91a5d921ef3",
+      "size": 29559,
+      "source_authoritative_path": "src/shiftqc/data/mnms_audit.py",
+      "source_sha256": "08474954ec10c43a8612ba283775bdf02da270c5fb5c39079ab3c91a5d921ef3",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/data/mnms_split.py",
+      "sha256": "9ee77e7092c2694056af8443ebb3dd667d55e44a910061e9ca983461fca81413",
+      "size": 18232,
+      "source_authoritative_path": "src/shiftqc/data/mnms_split.py",
+      "source_sha256": "9ee77e7092c2694056af8443ebb3dd667d55e44a910061e9ca983461fca81413",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/data/mnms_nnunet.py",
+      "sha256": "6cd5c63b9c6209a7fd82001e364e5613fec858291aa25d127034772385897b92",
+      "size": 24676,
+      "source_authoritative_path": "src/shiftqc/data/mnms_nnunet.py",
+      "source_sha256": "6cd5c63b9c6209a7fd82001e364e5613fec858291aa25d127034772385897b92",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/data/nnunet_export.py",
+      "sha256": "7da50dabb05b4c4770db44d79582318cafc3840cc53309eb933891c94205988d",
+      "size": 12127,
+      "source_authoritative_path": "src/shiftqc/data/nnunet_export.py",
+      "source_sha256": "7da50dabb05b4c4770db44d79582318cafc3840cc53309eb933891c94205988d",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/segmentation/task020b.py",
+      "sha256": "4ae2984dc4f93742c1447ed247f2d9b7a95bc041beb866e62f9d5c8ba7f5709f",
+      "size": 10327,
+      "source_authoritative_path": "src/shiftqc/segmentation/task020b.py",
+      "source_sha256": "4ae2984dc4f93742c1447ed247f2d9b7a95bc041beb866e62f9d5c8ba7f5709f",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/segmentation/task020c.py",
+      "sha256": "0342f9d4b7aa527ba861ad8ce1e556f000a136c68b576e80fe701b21555b2aa9",
+      "size": 23078,
+      "source_authoritative_path": "src/shiftqc/segmentation/task020c.py",
+      "source_sha256": "0342f9d4b7aa527ba861ad8ce1e556f000a136c68b576e80fe701b21555b2aa9",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "src/shiftqc/validation2/provenance.py",
+      "sha256": "f324ab8dc168576c3a1156c30a5b4b65358894a6d457670aff1ba98621d307ed",
+      "size": 6627,
+      "source_authoritative_path": "src/shiftqc/validation2/provenance.py",
+      "source_sha256": "f324ab8dc168576c3a1156c30a5b4b65358894a6d457670aff1ba98621d307ed",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "BYTE_IDENTICAL",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "configs/templates/qc_baselines.json",
+      "sha256": "85edcdbeea297648b5a927433fffceadeb84962101034981e518399079443e26",
+      "size": 2016,
+      "source_authoritative_path": "configs/experiments/exp_0002_task008_qc_baselines.json",
+      "source_sha256": "6c618cc04e111b55f57b51465b872cb1de0c77f88ef3530443794cef0bbf1cbe",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "SANITIZED_DERIVATIVE",
+      "category": "CONFIGURATION",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "removed": [
+            "inputs.*.sha256",
+            "expected_counts"
+          ],
+          "paths": "local placeholders; original scientific parameters unchanged"
+        },
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "docs/methodology.md",
+      "sha256": "e412322359b4dba4fc423d4897e1b32fc67d0a114676cb08c90f218e58ddd205",
+      "size": 1645,
+      "source_authoritative_path": null,
+      "source_sha256": null,
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "GENERATED_DOCUMENTATION",
+      "category": "DOCUMENTATION",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "ALL_RIGHTS_RESERVED_AUTHORIZED_PUBLIC_DISTRIBUTION",
+      "generation_inputs": [
+        {
+          "document_bundle_sha256": "c8fe0824ad41a4a16781d579ec8a4af3f35c1b661c249a71a51b34dd18b9ce9e",
+          "task": "TASK-046"
+        },
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "docs/reproducibility.md",
+      "sha256": "66d00f96b811c4617513a1bc563b2cfbfa11e0df4b82a010fc8583ac8ab84abe",
+      "size": 1263,
+      "source_authoritative_path": null,
+      "source_sha256": null,
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "GENERATED_DOCUMENTATION",
+      "category": "DOCUMENTATION",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "ALL_RIGHTS_RESERVED_AUTHORIZED_PUBLIC_DISTRIBUTION",
+      "generation_inputs": [
+        {
+          "document_bundle_sha256": "c8fe0824ad41a4a16781d579ec8a4af3f35c1b661c249a71a51b34dd18b9ce9e",
+          "task": "TASK-046"
+        },
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "docs/data_access.md",
+      "sha256": "5333e71aebaba86e754f01b4cff0c93bfd3f5af68a76dd7e5bb9fbda42ab5f8c",
+      "size": 5856,
+      "source_authoritative_path": null,
+      "source_sha256": null,
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "GENERATED_DOCUMENTATION",
+      "category": "DOCUMENTATION",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "ALL_RIGHTS_RESERVED_AUTHORIZED_PUBLIC_DISTRIBUTION",
+      "generation_inputs": [
+        {
+          "document_bundle_sha256": "c8fe0824ad41a4a16781d579ec8a4af3f35c1b661c249a71a51b34dd18b9ce9e",
+          "task": "TASK-046"
+        },
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "docs/governance_summary.md",
+      "sha256": "fe5c5cf60f83546ebc8a24f9365c5d35db8b6bcce35a563ad8b64c1765fbf9a0",
+      "size": 1607,
+      "source_authoritative_path": null,
+      "source_sha256": null,
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "GENERATED_DOCUMENTATION",
+      "category": "DOCUMENTATION",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "ALL_RIGHTS_RESERVED_AUTHORIZED_PUBLIC_DISTRIBUTION",
+      "generation_inputs": [
+        {
+          "document_bundle_sha256": "c8fe0824ad41a4a16781d579ec8a4af3f35c1b661c249a71a51b34dd18b9ce9e",
+          "task": "TASK-046"
+        },
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "docs/limitations.md",
+      "sha256": "f366ed84d0ac86bdfc36e045a7d3fe5ace884ffa5041032faf64733622dc47b0",
+      "size": 788,
+      "source_authoritative_path": null,
+      "source_sha256": null,
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "GENERATED_DOCUMENTATION",
+      "category": "DOCUMENTATION",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "ALL_RIGHTS_RESERVED_AUTHORIZED_PUBLIC_DISTRIBUTION",
+      "generation_inputs": [
+        {
+          "document_bundle_sha256": "c8fe0824ad41a4a16781d579ec8a4af3f35c1b661c249a71a51b34dd18b9ce9e",
+          "task": "TASK-046"
+        },
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "results/README.md",
+      "sha256": "0cda2475998ca33659953372b778ec84de90f95f56093d2aa98813a1a2180007",
+      "size": 436,
+      "source_authoritative_path": null,
+      "source_sha256": null,
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "GENERATED_DOCUMENTATION",
+      "category": "DOCUMENTATION",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "ALL_RIGHTS_RESERVED_AUTHORIZED_PUBLIC_DISTRIBUTION",
+      "generation_inputs": [
+        {
+          "document_bundle_sha256": "c8fe0824ad41a4a16781d579ec8a4af3f35c1b661c249a71a51b34dd18b9ce9e",
+          "task": "TASK-046"
+        },
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "docs/figure_generation_provenance.md",
+      "sha256": "b9ed301496acb0797964d97048c63f4d1665e7eb566e57ae97ce529e48d9c76b",
+      "size": 1005,
+      "source_authoritative_path": null,
+      "source_sha256": null,
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "GENERATED_DOCUMENTATION",
+      "category": "DOCUMENTATION",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "ALL_RIGHTS_RESERVED_AUTHORIZED_PUBLIC_DISTRIBUTION",
+      "generation_inputs": [
+        {
+          "document_bundle_sha256": "c8fe0824ad41a4a16781d579ec8a4af3f35c1b661c249a71a51b34dd18b9ce9e",
+          "task": "TASK-046"
+        },
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "docs/study_overview.md",
+      "sha256": "cb47ad920b8f648eba6cc701ff4606f9eb546331d37718dc4a4c47bdeedd05fa",
+      "size": 385,
+      "source_authoritative_path": null,
+      "source_sha256": null,
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "GENERATED_DOCUMENTATION",
+      "category": "DOCUMENTATION",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "ALL_RIGHTS_RESERVED_AUTHORIZED_PUBLIC_DISTRIBUTION",
+      "generation_inputs": [
+        {
+          "document_bundle_sha256": "c8fe0824ad41a4a16781d579ec8a4af3f35c1b661c249a71a51b34dd18b9ce9e",
+          "task": "TASK-046"
+        },
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "environment/environment_notes.md",
+      "sha256": "48903c9110d82954991e02b9e65658b5be5a8ae039e9f508908f00fc46c81400",
+      "size": 1544,
+      "source_authoritative_path": null,
+      "source_sha256": null,
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "GENERATED_DOCUMENTATION",
+      "category": "DOCUMENTATION",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "ALL_RIGHTS_RESERVED_AUTHORIZED_PUBLIC_DISTRIBUTION",
+      "generation_inputs": [
+        {
+          "document_bundle_sha256": "c8fe0824ad41a4a16781d579ec8a4af3f35c1b661c249a71a51b34dd18b9ce9e",
+          "task": "TASK-046"
+        },
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "models/README.md",
+      "sha256": "c0658ec6db703f1dfa9c229d786249dfcf9d01e43c8d9131cec7f4661e2674ec",
+      "size": 624,
+      "source_authoritative_path": null,
+      "source_sha256": null,
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "GENERATED_DOCUMENTATION",
+      "category": "DOCUMENTATION",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "ALL_RIGHTS_RESERVED_AUTHORIZED_PUBLIC_DISTRIBUTION",
+      "generation_inputs": [
+        {
+          "document_bundle_sha256": "c8fe0824ad41a4a16781d579ec8a4af3f35c1b661c249a71a51b34dd18b9ce9e",
+          "task": "TASK-046"
+        },
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "README.md",
+      "sha256": "befc775b814866499e0b557a05403bb3b86e14fb58cf1c32bc0b0a89f84bea01",
+      "size": 6870,
+      "source_authoritative_path": null,
+      "source_sha256": null,
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "GENERATED_DOCUMENTATION",
+      "category": "DOCUMENTATION",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "ALL_RIGHTS_RESERVED_AUTHORIZED_PUBLIC_DISTRIBUTION",
+      "generation_inputs": [
+        {
+          "document_bundle_sha256": "c8fe0824ad41a4a16781d579ec8a4af3f35c1b661c249a71a51b34dd18b9ce9e",
+          "task": "TASK-046"
+        },
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "DATA_AND_ARTIFACT_RIGHTS.md",
+      "sha256": "c1e8b6aa67652eee70254de006e555ec8510241a7244195d8bfc789fb30bc2f4",
+      "size": 1954,
+      "source_authoritative_path": null,
+      "source_sha256": null,
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "GENERATED_DOCUMENTATION",
+      "category": "DOCUMENTATION",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "ALL_RIGHTS_RESERVED_AUTHORIZED_PUBLIC_DISTRIBUTION",
+      "generation_inputs": [
+        {
+          "document_bundle_sha256": "c8fe0824ad41a4a16781d579ec8a4af3f35c1b661c249a71a51b34dd18b9ce9e",
+          "task": "TASK-046"
+        },
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "docs/code_license_status.md",
+      "sha256": "aa4de600716048d130e4f2967e659a44127141243ea8c7a895d1afbc4aa10643",
+      "size": 1096,
+      "source_authoritative_path": null,
+      "source_sha256": null,
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "GENERATED_DOCUMENTATION",
+      "category": "DOCUMENTATION",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "ALL_RIGHTS_RESERVED_AUTHORIZED_PUBLIC_DISTRIBUTION",
+      "generation_inputs": [
+        {
+          "document_bundle_sha256": "c8fe0824ad41a4a16781d579ec8a4af3f35c1b661c249a71a51b34dd18b9ce9e",
+          "task": "TASK-046"
+        },
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "docs/full_reproduction.md",
+      "sha256": "a682b43e12a8ae20663c6ceac1d475bcef99a579e80c81e7e81191a1a0e5c25e",
+      "size": 5572,
+      "source_authoritative_path": null,
+      "source_sha256": null,
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "GENERATED_DOCUMENTATION",
+      "category": "DOCUMENTATION",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "ALL_RIGHTS_RESERVED_AUTHORIZED_PUBLIC_DISTRIBUTION",
+      "generation_inputs": [
+        {
+          "document_bundle_sha256": "c8fe0824ad41a4a16781d579ec8a4af3f35c1b661c249a71a51b34dd18b9ce9e",
+          "task": "TASK-046"
+        },
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "docs/input_contract.md",
+      "sha256": "8f7882174b91a996ef746a34596c9a8fca2b7f6e7937d93068ce0cd5d744e28c",
+      "size": 1603,
+      "source_authoritative_path": null,
+      "source_sha256": null,
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "GENERATED_DOCUMENTATION",
+      "category": "DOCUMENTATION",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "ALL_RIGHTS_RESERVED_AUTHORIZED_PUBLIC_DISTRIBUTION",
+      "generation_inputs": [
+        {
+          "document_bundle_sha256": "c8fe0824ad41a4a16781d579ec8a4af3f35c1b661c249a71a51b34dd18b9ce9e",
+          "task": "TASK-046"
+        },
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "ea5b0e943de786d9ce576f7fb3decb2f23422a2967427ed73196874b471917a7",
+      "size": 1522,
+      "source_authoritative_path": null,
+      "source_sha256": null,
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "GENERATED_METADATA",
+      "category": "DOCUMENTATION",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "authority": "author factual declaration; original code only",
+          "standard_license": "MIT"
+        },
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "ed9b5f037f3da04e68722242d9ae3edff87d9c4bb6688fecd1e3a45ec72e5935",
+      "size": 413,
+      "source_authoritative_path": null,
+      "source_sha256": null,
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "GENERATED_METADATA",
+      "category": "DOCUMENTATION",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "ALL_RIGHTS_RESERVED_AUTHORIZED_PUBLIC_DISTRIBUTION",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "19e233d63534904a9a9b7151f84481b093ca437f8db4842562b35b7ce66a5b3d",
+      "size": 141,
+      "source_authoritative_path": null,
+      "source_sha256": null,
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "GENERATED_METADATA",
+      "category": "CONFIGURATION",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "environment/requirements-public.txt",
+      "sha256": "4b960386e1ef8d6234999081aab295d0ac225dc7d89f586238cd8af5c77011fa",
+      "size": 234,
+      "source_authoritative_path": null,
+      "source_sha256": null,
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "GENERATED_DOCUMENTATION",
+      "category": "ENVIRONMENT",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "source_path": "environment/lock.txt",
+          "sha256": "e1e4383be88f94dc7ce750aff1584420581d50d12e55289ade554f22aa9d128e"
+        },
+        {
+          "source_path": "pyproject.toml",
+          "sha256": "f321e31eb9596b08bf90a2aacd4ee373c9ec98cc26dfe71ce732e01991340a9b"
+        },
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "manifests/public_safe/analysis_specifications.json",
+      "sha256": "59986d25c36da207647d896b63674ac2535eb91857c53da30fdc6718e8267509",
+      "size": 3069,
+      "source_authoritative_path": null,
+      "source_sha256": null,
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "GENERATED_METADATA",
+      "category": "FROZEN_SPECIFICATION",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "ALL_RIGHTS_RESERVED_AUTHORIZED_PUBLIC_DISTRIBUTION",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "scripts/verify_release.py",
+      "sha256": "3118ca5f37644e6aba8eca313e6c04077e935391db331a352a6eae4c78bd4225",
+      "size": 2840,
+      "source_authoritative_path": null,
+      "source_sha256": null,
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "GENERATED_METADATA",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "scripts/reproduce_figures.py",
+      "sha256": "08e1e4c084df75f77fcf5bb7eea70c8ef71686f1e8a7cea6e9679e90bd38cb9c",
+      "size": 15315,
+      "source_authoritative_path": "scripts/task041_figures.py",
+      "source_sha256": "23d1faae5b5753e7dbd74d38a7bd7f807c51b4ee3bfc045db9d1470621df90f7",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "SANITIZED_DERIVATIVE",
+      "category": "FIGURE_GENERATOR",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "source_path": "scripts/task041_figures.py",
+          "sha256": "23d1faae5b5753e7dbd74d38a7bd7f807c51b4ee3bfc045db9d1470621df90f7"
+        },
+        {
+          "source_path": "scripts/task042_figures.py",
+          "sha256": "f61a07b93650794c39d752b8cc4bd72dcc3a98717b46314b4de4de285681ce0e"
+        },
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "scripts/reproduce_tables.py",
+      "sha256": "fc367d29df99c0b3cb5e032d34e977fe61b34b7e82274405a22bd45a1fe1412c",
+      "size": 7689,
+      "source_authoritative_path": "scripts/task041_assemble_draft.py",
+      "source_sha256": "02f5e54110c00a43863e676237d6abebc05f458b2b1ec05b161941ea4d56d3dd",
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "SANITIZED_DERIVATIVE",
+      "category": "SOURCE_CODE",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "source_path": "scripts/task041_assemble_draft.py",
+          "sha256": "02f5e54110c00a43863e676237d6abebc05f458b2b1ec05b161941ea4d56d3dd",
+          "transformation": "Frozen Table1/Table2 layout; source total derived from local component rows; verdicts supplied by local endpoint status metadata; no actual result literals. Narrative Table3/S1 is not redistributed."
+        },
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "tests/test_public_qc_synthetic.py",
+      "sha256": "6e19e52eeb3ba8607e7c241e9bcdb1d0564de8d6e1fec877845435a8ad86932b",
+      "size": 917,
+      "source_authoritative_path": null,
+      "source_sha256": null,
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "GENERATED_METADATA",
+      "category": "TEST",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "tests/test_public_release_metadata.py",
+      "sha256": "af0f4cb77f39c3194dd34073959bfec0b98753949234a191bb63679408b31043",
+      "size": 2208,
+      "source_authoritative_path": null,
+      "source_sha256": null,
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "GENERATED_METADATA",
+      "category": "TEST",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "tests/test_public_source_data_gates.py",
+      "sha256": "da4762f37592b0def7de1b97acd796a9403a9e1bcd48c550023d8b89b0df1ce6",
+      "size": 3256,
+      "source_authoritative_path": null,
+      "source_sha256": null,
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "GENERATED_METADATA",
+      "category": "TEST",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "MIT_ORIGINAL_SOFTWARE",
+      "generation_inputs": [
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "figures/figure1/figure1_shiftqc_concept.pdf",
+      "sha256": "367fe7b6735c7b4834a276c0ed5351f249d0a7db0380d99a7016703c31c43a3a",
+      "size": 31436,
+      "source_authoritative_path": null,
+      "source_sha256": null,
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "GENERATED_METADATA",
+      "category": "FIGURE_GENERATOR",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "ALL_RIGHTS_RESERVED_AUTHORIZED_PUBLIC_DISTRIBUTION",
+      "generation_inputs": [
+        {
+          "source_path": "scripts/task041_figures.py",
+          "sha256": "23d1faae5b5753e7dbd74d38a7bd7f807c51b4ee3bfc045db9d1470621df90f7"
+        },
+        {
+          "source_path": "scripts/task042_figures.py",
+          "sha256": "f61a07b93650794c39d752b8cc4bd72dcc3a98717b46314b4de4de285681ce0e"
+        },
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "figures/figure1/figure1_shiftqc_concept.svg",
+      "sha256": "8a777d5b3aa080c1d9035e95551d9d386e836180f744516674ac7c74c84e82a8",
+      "size": 13146,
+      "source_authoritative_path": null,
+      "source_sha256": null,
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "GENERATED_METADATA",
+      "category": "FIGURE_GENERATOR",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "ALL_RIGHTS_RESERVED_AUTHORIZED_PUBLIC_DISTRIBUTION",
+      "generation_inputs": [
+        {
+          "source_path": "scripts/task041_figures.py",
+          "sha256": "23d1faae5b5753e7dbd74d38a7bd7f807c51b4ee3bfc045db9d1470621df90f7"
+        },
+        {
+          "source_path": "scripts/task042_figures.py",
+          "sha256": "f61a07b93650794c39d752b8cc4bd72dcc3a98717b46314b4de4de285681ce0e"
+        },
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    },
+    {
+      "path": "figures/figure1/figure1_shiftqc_concept.png",
+      "sha256": "d06977892ef68fe737e61a7fe1a3aff2e5004658acecd2f514507a6c2daf0ec1",
+      "size": 95511,
+      "source_authoritative_path": null,
+      "source_sha256": null,
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "GENERATED_METADATA",
+      "category": "FIGURE_GENERATOR",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "ALL_RIGHTS_RESERVED_AUTHORIZED_PUBLIC_DISTRIBUTION",
+      "generation_inputs": [
+        {
+          "source_path": "scripts/task041_figures.py",
+          "sha256": "23d1faae5b5753e7dbd74d38a7bd7f807c51b4ee3bfc045db9d1470621df90f7"
+        },
+        {
+          "source_path": "scripts/task042_figures.py",
+          "sha256": "f61a07b93650794c39d752b8cc4bd72dcc3a98717b46314b4de4de285681ce0e"
+        },
+        {
+          "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
+          "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
+          "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        }
+      ]
+    }
+  ]
+}
