@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Citation metadata draft for author review; no public release or DOI has been assigned."
+message: "Public SHIFT-QC software repository; cite the v1.0.1 archive once its DOI is assigned. No DOI was assigned when this metadata revision was committed."
 title: "SHIFT-QC reproducibility software"
 type: software
 version: "1.0.0"
@@ -9,3 +9,4 @@ authors:
     affiliation: "Istanbul University, Faculty of Computer and Information Technologies"
     orcid: "https://orcid.org/0009-0001-9358-0563"
 license: MIT
+url: "https://github.com/Fetiiii/shift-qc"

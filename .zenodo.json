@@ -1,0 +1,24 @@
+{
+  "title": "SHIFT-QC software and public-safe reproducibility materials",
+  "upload_type": "software",
+  "version": "1.0.1",
+  "creators": [
+    {
+      "name": "Eraslan, Feti Çağrı",
+      "orcid": "0009-0001-9358-0563",
+      "affiliation": "Istanbul University, Faculty of Computer and Information Technologies"
+    }
+  ],
+  "description": "Original SHIFT-QC software and public-safe reproducibility materials accompanying the SHIFT-QC manuscript. This is a software archive, not a source medical dataset or patient-derived dataset deposit. Source images, masks, patient-level/source-derived artefacts, unresolved aggregate ledgers, and trained weights are excluded. Full source-data-dependent reproduction requires independently obtaining source datasets from their official custodians. MIT covers original SHIFT-QC software only; documentation, citation metadata, manifests and conceptual figures retain separate rights as described in DATA_AND_ARTIFACT_RIGHTS.md. At this metadata commit, the manuscript had not been submitted to or accepted by Medical Image Analysis and no Zenodo DOI had been assigned.",
+  "access_right": "open",
+  "license": "mit",
+  "keywords": [
+    "medical imaging",
+    "image segmentation",
+    "quality control",
+    "domain shift",
+    "external validation",
+    "reproducible research"
+  ],
+  "language": "eng"
+}

@@ -1,7 +1,7 @@
 # Limitations
 
-This is a code-focused, unpublished software candidate. Original-code
-licensing authority is confirmed, and the software scope is prepared for review. Upstream datasets, patient
+This is a public code-focused software repository. Original-code
+licensing authority and publication approval are confirmed. Upstream datasets, patient
 artifacts, weights and unresolved aggregate inputs are outside this release.
 Analysis reproduction requires independently obtained original data and regenerated
 intermediates. Code tests and conceptual hashes do not establish complete

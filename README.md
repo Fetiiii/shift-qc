@@ -1,7 +1,7 @@
 # SHIFT-QC
 
 Reproducibility software accompanying the SHIFT-QC manuscript.
-This code-only release candidate is unpublished and prepared for author pre-push review.
+This public repository contains the author-approved code and public-safe reproducibility materials. The existing v1.0.0 tag is an unpublished historical candidate; v1.0.1 is the first intended published software archive.
 Original-code licensing authority was confirmed by the author factual declaration.
 Frozen export source: `1a11c27570b4858a7ad24a8e6c8a1496a70fee93`.
 Scientific authority: `10baa3212679f3e15116abde7050d4f6e474288e`.
@@ -10,7 +10,7 @@ Scientific authority: `10baa3212679f3e15116abde7050d4f6e474288e`.
 
 SHIFT-QC studies segmentation quality-control transfer under domain shift.
 The public repository contains the implementation and public-safe reproducibility materials. Patient-level and source-data-derived artefacts are not redistributed because the study combines datasets governed by different licences and data-use terms. Researchers can reproduce the full pipeline after independently obtaining the original datasets from their official custodians.
-This disclosure describes the intended public scope, not a completed publication.
+This disclosure describes the public software scope; a Zenodo DOI had not been assigned when this metadata revision was committed.
 
 ## Scientific question
 
@@ -102,7 +102,7 @@ withheld manuscript numbers or a complete source-data rerun.
 `CODE_REPRODUCIBILITY = PASS` when the documented clean-copy tests pass.
 `PUBLIC_SAFE_ARTIFACT_VERIFICATION = PASS` when manifests and Figure 1 match.
 `FULL_SOURCE_DATA_REPRODUCTION = DOCUMENTED / REQUIRES ORIGINAL DATA`.
-The first two statuses are documented in the accompanying author review audit.
+The first two statuses are documented in the release audit.
 The third is not a tested PASS. This repository does not promise that a clone
 immediately reproduces every manuscript number.
 
@@ -115,8 +115,8 @@ Checkpoint sharing may be revisited after artifact-specific clearance.
 
 ## Citation
 
-`CITATION.cff`: Feti Çağrı Eraslan, ORCID 0009-0001-9358-0563, planned version 1.0.0.
-No repository URL, release date or DOI exists yet. AI tools are not authors.
+`CITATION.cff`: Feti Çağrı Eraslan, ORCID 0009-0001-9358-0563. The original software package version remains 1.0.0; the corrected first publication snapshot is tagged v1.0.1.
+Repository: https://github.com/Fetiiii/shift-qc. No Zenodo DOI had been assigned at this metadata commit. AI tools are not authors.
 
 ## License
 
@@ -140,5 +140,4 @@ ledger are excluded. Reconstructing them requires original data and the scientif
 provenance constraints; no exact raw-data rerun was performed for this release.
 GPU bitwise reproducibility is not established. R8 remains an oracle diagnostic.
 Dataset-derived redistribution uncertainty does not block the narrower software
-release. Code authority is confirmed; public publication still requires separate
-author approval.
+release. Code authority and public software publication have been approved by the author.

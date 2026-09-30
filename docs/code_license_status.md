@@ -14,5 +14,7 @@ Documentation/citation/figure outputs have separate rights stated in
 DATA_AND_ARTIFACT_RIGHTS.md. No institutional inquiry was sent or required by
 the declared facts; no unrelated BAP policy was applied to this independent work.
 
-READY_FOR_CODE_ONLY_PUBLIC_PUSH_REVIEW after code/security/integrity gates.
-This is not public-push/Zenodo approval; no public remote or DOI exists.
+The author approved the code-only public release after code/security/integrity gates.
+The GitHub repository is public at https://github.com/Fetiiii/shift-qc. The existing
+v1.0.0 tag is an unpublished historical candidate; v1.0.1 is the first intended
+published archive. No Zenodo DOI had been assigned at this metadata commit.

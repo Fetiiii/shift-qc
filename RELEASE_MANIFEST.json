@@ -1,12 +1,12 @@
 {
   "manifest_version": 2,
-  "candidate_name": "SHIFT-QC code-only software release candidate",
+  "candidate_name": "SHIFT-QC public code and public-safe reproducibility package",
   "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
   "scientific_authority_commit": "10baa3212679f3e15116abde7050d4f6e474288e",
-  "release_status": "READY_FOR_CODE_ONLY_PUBLIC_PUSH_REVIEW",
+  "release_status": "PUBLIC_REPOSITORY_FIRST_RELEASE_PREPARED",
   "software_license": "MIT_ORIGINAL_SOURCE_ONLY",
   "other_material_rights": "ALL_RIGHTS_RESERVED_AUTHORIZED_PUBLIC_DISTRIBUTION",
-  "publication_authorized": false,
+  "publication_authorized": true,
   "patient_derived_artifacts_included": false,
   "source_data_reproduction": "DOCUMENTED_REQUIRES_ORIGINAL_DATA",
   "manifest_self_reference": "Detached own hash/size recorded in internal whitelist.",
@@ -1233,8 +1233,8 @@
     },
     {
       "path": "docs/limitations.md",
-      "sha256": "f366ed84d0ac86bdfc36e045a7d3fe5ace884ffa5041032faf64733622dc47b0",
-      "size": 788,
+      "sha256": "c3051d446dd11cabdf7767e399231479209de5675dcbe64dde2d2854d0b2122d",
+      "size": 762,
       "source_authoritative_path": null,
       "source_sha256": null,
       "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
@@ -1253,6 +1253,10 @@
           "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
           "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
           "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        },
+        {
+          "task": "TASK-050",
+          "revision": "metadata-only public-state correction for v1.0.1"
         }
       ]
     },
@@ -1383,8 +1387,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "befc775b814866499e0b557a05403bb3b86e14fb58cf1c32bc0b0a89f84bea01",
-      "size": 6870,
+      "sha256": "a82b8b9ade704158302f187e33ff6b5a8d28cd75bca707fb911ea3692c8396fe",
+      "size": 7168,
       "source_authoritative_path": null,
       "source_sha256": null,
       "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
@@ -1403,6 +1407,10 @@
           "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
           "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
           "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        },
+        {
+          "task": "TASK-050",
+          "revision": "metadata-only public-state correction for v1.0.1"
         }
       ]
     },
@@ -1433,8 +1441,8 @@
     },
     {
       "path": "docs/code_license_status.md",
-      "sha256": "aa4de600716048d130e4f2967e659a44127141243ea8c7a895d1afbc4aa10643",
-      "size": 1096,
+      "sha256": "f62ae4ff738f2cf6a548752a9edfcc9dabf7e1c6ddcaa365b10cb22f8ad7f625",
+      "size": 1274,
       "source_authoritative_path": null,
       "source_sha256": null,
       "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
@@ -1453,6 +1461,10 @@
           "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
           "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
           "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        },
+        {
+          "task": "TASK-050",
+          "revision": "metadata-only public-state correction for v1.0.1"
         }
       ]
     },
@@ -1533,8 +1545,8 @@
     },
     {
       "path": "CITATION.cff",
-      "sha256": "ed9b5f037f3da04e68722242d9ae3edff87d9c4bb6688fecd1e3a45ec72e5935",
-      "size": 413,
+      "sha256": "ac808aeb228b7efa1add1ba9b68bf1966b62e28be534b81319d7bead8b3bf35e",
+      "size": 519,
       "source_authoritative_path": null,
       "source_sha256": null,
       "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
@@ -1549,6 +1561,10 @@
           "builder_sha256": "20499d69b9079bf3f788762097019c9ae9b888452fef83a68311100e5519f6b4",
           "task046_table_adapter_sha256": "98b0adbb0e45765c0478fe90f6f587a4765f7cb61e1160d7e578ee33c1e74125",
           "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
+        },
+        {
+          "task": "TASK-050",
+          "revision": "metadata-only public-state correction for v1.0.1"
         }
       ]
     },
@@ -1848,6 +1864,33 @@
           "frozen_base_builder_sha256": "c88493c0b6d26952b470519de979b0ff142fc7b205590cf4ebe8e14c540dd225"
         }
       ]
+    },
+    {
+      "path": ".zenodo.json",
+      "sha256": "0d4709dcffd215094620ca8273479146ef2d1e3f6b7d5855cf40ae8e3ee0860d",
+      "size": 1354,
+      "source_authoritative_path": null,
+      "source_sha256": null,
+      "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
+      "transformation": "GENERATED_METADATA",
+      "category": "DOCUMENTATION",
+      "contains_scientific_result": false,
+      "contains_patient_data": false,
+      "redistribution_status": "PUBLIC_OK",
+      "license_scope": "ALL_RIGHTS_RESERVED_AUTHORIZED_PUBLIC_DISTRIBUTION",
+      "generation_inputs": [
+        {
+          "task": "TASK-050",
+          "revision": "Zenodo Software metadata for first published v1.0.1 archive"
+        }
+      ]
     }
-  ]
+  ],
+  "github_repository_url": "https://github.com/Fetiiii/shift-qc",
+  "github_visibility": "PUBLIC",
+  "first_published_release_tag": "v1.0.1",
+  "historical_v1_0_0": "UNPUBLISHED_PRE_RELEASE_CANDIDATE",
+  "zenodo_doi_status_at_metadata_commit": "NOT_ASSIGNED",
+  "manuscript_status_at_metadata_commit": "NOT_SUBMITTED_OR_ACCEPTED",
+  "metadata_revision": "TASK-050_AUTHOR_APPROVED_PUBLIC_RELEASE"
 }
