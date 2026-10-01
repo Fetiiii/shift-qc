@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Public SHIFT-QC software repository; cite the v1.0.1 archive once its DOI is assigned. No DOI was assigned when this metadata revision was committed."
+message: "Cite the first published software archive v1.0.1 using its version-specific Zenodo DOI. The underlying software package version remains 1.0.0."
 title: "SHIFT-QC reproducibility software"
 type: software
 version: "1.0.0"
@@ -10,3 +10,10 @@ authors:
     orcid: "https://orcid.org/0009-0001-9358-0563"
 license: MIT
 url: "https://github.com/Fetiiii/shift-qc"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23068487"
+    description: "Version-specific DOI for the first published v1.0.1 software archive, released 2026-09-30."
+  - type: doi
+    value: "10.5281/zenodo.23068486"
+    description: "Concept DOI for the SHIFT-QC software release family."

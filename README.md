@@ -1,7 +1,7 @@
 # SHIFT-QC
 
 Reproducibility software accompanying the SHIFT-QC manuscript.
-This public repository contains the author-approved code and public-safe reproducibility materials. The existing v1.0.0 tag is an unpublished historical candidate; v1.0.1 is the first intended published software archive.
+This public repository contains the author-approved code and public-safe reproducibility materials. The existing v1.0.0 tag is an unpublished historical candidate; [v1.0.1](https://github.com/Fetiiii/shift-qc/releases/tag/v1.0.1) is the first published software archive, preserved at [Zenodo](https://doi.org/10.5281/zenodo.23068487).
 Original-code licensing authority was confirmed by the author factual declaration.
 Frozen export source: `1a11c27570b4858a7ad24a8e6c8a1496a70fee93`.
 Scientific authority: `10baa3212679f3e15116abde7050d4f6e474288e`.
@@ -10,7 +10,7 @@ Scientific authority: `10baa3212679f3e15116abde7050d4f6e474288e`.
 
 SHIFT-QC studies segmentation quality-control transfer under domain shift.
 The public repository contains the implementation and public-safe reproducibility materials. Patient-level and source-data-derived artefacts are not redistributed because the study combines datasets governed by different licences and data-use terms. Researchers can reproduce the full pipeline after independently obtaining the original datasets from their official custodians.
-This disclosure describes the public software scope; a Zenodo DOI had not been assigned when this metadata revision was committed.
+This disclosure describes the public software scope. The version-specific Zenodo DOI is [10.5281/zenodo.23068487](https://doi.org/10.5281/zenodo.23068487).
 
 ## Scientific question
 
@@ -116,7 +116,7 @@ Checkpoint sharing may be revisited after artifact-specific clearance.
 ## Citation
 
 `CITATION.cff`: Feti Çağrı Eraslan, ORCID 0009-0001-9358-0563. The original software package version remains 1.0.0; the corrected first publication snapshot is tagged v1.0.1.
-Repository: https://github.com/Fetiiii/shift-qc. No Zenodo DOI had been assigned at this metadata commit. AI tools are not authors.
+Repository: https://github.com/Fetiiii/shift-qc. Cite the exact v1.0.1 manuscript reproducibility release using [10.5281/zenodo.23068487](https://doi.org/10.5281/zenodo.23068487); the concept DOI is [10.5281/zenodo.23068486](https://doi.org/10.5281/zenodo.23068486). AI tools are not authors.
 
 ## License
 

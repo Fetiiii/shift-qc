@@ -3,7 +3,13 @@
   "candidate_name": "SHIFT-QC public code and public-safe reproducibility package",
   "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
   "scientific_authority_commit": "10baa3212679f3e15116abde7050d4f6e474288e",
-  "release_status": "PUBLIC_REPOSITORY_FIRST_RELEASE_PREPARED",
+  "release_status": "PUBLIC_V1_0_1_ARCHIVED_ON_ZENODO",
+  "published_release_tag": "v1.0.1",
+  "published_release_commit": "271fff53089b1ee1d21185ebee1a0a578a4a75aa",
+  "published_release_date_utc": "2026-09-30",
+  "zenodo_record_url": "https://zenodo.org/records/23068487",
+  "zenodo_version_doi": "10.5281/zenodo.23068487",
+  "zenodo_concept_doi": "10.5281/zenodo.23068486",
   "software_license": "MIT_ORIGINAL_SOURCE_ONLY",
   "other_material_rights": "ALL_RIGHTS_RESERVED_AUTHORIZED_PUBLIC_DISTRIBUTION",
   "publication_authorized": true,
@@ -1387,8 +1393,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "a82b8b9ade704158302f187e33ff6b5a8d28cd75bca707fb911ea3692c8396fe",
-      "size": 7168,
+      "sha256": "da3f61f7405697022022a4b431855fd15beaef5b2239005388cd918e28876ba5",
+      "size": 7468,
       "source_authoritative_path": null,
       "source_sha256": null,
       "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
@@ -1411,6 +1417,12 @@
         {
           "task": "TASK-050",
           "revision": "metadata-only public-state correction for v1.0.1"
+        },
+        {
+          "task": "TASK-050",
+          "revision": "post-release DOI metadata on main; archived v1.0.1 tag unchanged",
+          "zenodo_record": "https://zenodo.org/records/23068487",
+          "version_doi": "10.5281/zenodo.23068487"
         }
       ]
     },
@@ -1545,8 +1557,8 @@
     },
     {
       "path": "CITATION.cff",
-      "sha256": "ac808aeb228b7efa1add1ba9b68bf1966b62e28be534b81319d7bead8b3bf35e",
-      "size": 519,
+      "sha256": "269fbb00e1674fe2e6ef3c8b9e1fefc82139606fcc7e16610093abaa443a70a2",
+      "size": 810,
       "source_authoritative_path": null,
       "source_sha256": null,
       "source_commit": "1a11c27570b4858a7ad24a8e6c8a1496a70fee93",
@@ -1565,6 +1577,12 @@
         {
           "task": "TASK-050",
           "revision": "metadata-only public-state correction for v1.0.1"
+        },
+        {
+          "task": "TASK-050",
+          "revision": "post-release DOI metadata on main; archived v1.0.1 tag unchanged",
+          "zenodo_record": "https://zenodo.org/records/23068487",
+          "version_doi": "10.5281/zenodo.23068487"
         }
       ]
     },
