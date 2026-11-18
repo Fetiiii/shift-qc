@@ -34,7 +34,7 @@ def test_inventory_rejects_traversal(tmp_path,monkeypatch):
 def test_explicit_author_orcid_and_pending_release_metadata():
     text=(ROOT/"CITATION.cff").read_text()
     assert "https://orcid.org/0009-0001-9358-0563" in text
-    assert 'version: "1.0.0"' in text
+    assert 'version: "1.1.0"' in text
     assert "doi:" not in text and "date-released:" not in text and "repository-code:" not in text
     digits="0009000193580563";total=0
     for digit in digits[:-1]:total=(total+int(digit))*2

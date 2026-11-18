@@ -1,0 +1,33 @@
+{
+  "code_sha256": {
+    "scripts/task052_simulate.py": "5550c7650859327be168d108f5cce3893a4c9e1b861b875890d85485cb1f5cb1",
+    "src/shiftqc/confirmatory/bootstrap.py": "9d2a25be00bfaceb8962c290006107f981a499f9a6d763d2b05cc66343eeb153",
+    "src/shiftqc/confirmatory/r5.py": "b01bbca74cd719347344bd32a57d31829354f77f08b892deaa7c98a7971844c0",
+    "src/shiftqc/confirmatory/r8.py": "40ebbc93f234a83a80e620519308a83cafd77a40e423f816603d6f833b58af12",
+    "src/shiftqc/confirmatory/recalibration.py": "024db103b63c3d32a78c144375d84e31f9e6a4759b23e8444d1f3609a94b680d",
+    "src/shiftqc/confirmatory/skill.py": "f9ca224ade996729bdd894ed333e4d4a7488c4e5d530931449bf7eff62a71cb0",
+    "src/shiftqc/exploratory/synthetic_r8.py": "c4ed586379dff3f56fc682dfc8f17b892f4cb6b921ad89e2771bb7177eef03bf"
+  },
+  "config_sha256": "b9cd18225ea108bd65d81663d54e6892133885042738b12f00346cf2791657d0",
+  "ended_at": "2026-11-16T21:56:31.001595+03:00",
+  "experiment_id": "EXP-0007",
+  "git_commit": "89c817488a2d041072952a26de33d60ecc880d3a",
+  "gpu_used": false,
+  "output_sha256": {
+    "01_reference.json": "4ca51303a3bf67f2519e0a06dbf4e14ebf6502589b258650aff2d8dc105c4a8a",
+    "02_tier1.json": "83e54df20443dd53f47c1a54187d5ad3e3b1b6aa57da38d93e2ed355e98f928f",
+    "03_tier2.json": "78dcca3c407f1c993dcb54c592fb71f64c63a516b62e5af12bbb913e93948f84"
+  },
+  "patient_data_read": false,
+  "root_seed": 2026,
+  "software": {
+    "numpy": "1.26.4",
+    "python": "3.12.13",
+    "scipy": "1.13.1",
+    "sklearn": "1.9.0"
+  },
+  "started_at": "2026-11-16T19:21:45.310669+03:00",
+  "task_id": "TASK-052",
+  "tracked_files_dirty": true,
+  "workers": 20
+}

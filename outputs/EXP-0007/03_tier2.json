@@ -1,0 +1,142 @@
+{
+  "bootstrap_B": 500,
+  "cells": {
+    "A_rho0.25_n66_245": {
+      "CI_high_below_zero": {
+        "binomial_se": 0.0,
+        "frequency": 0.0
+      },
+      "CI_low_above_zero": {
+        "binomial_se": 0.007391185942027817,
+        "frequency": 0.016666666666666666
+      },
+      "Delta8": {
+        "mean": 0.008205953220749474,
+        "n": 300,
+        "p2.5": -0.10755500566789869,
+        "p50": 0.01661327362846631,
+        "p97.5": 0.09079184500570094,
+        "sd": 0.04994811684282413
+      },
+      "datasets": 300,
+      "interval_covers_reference": {
+        "binomial_se": 0.007391185942027828,
+        "frequency": 0.9833333333333333
+      },
+      "interval_covers_zero": {
+        "binomial_se": 0.007391185942027828,
+        "frequency": 0.9833333333333333
+      },
+      "mean_interval_width": 0.23851664681404638,
+      "n_id": 66,
+      "n_ood": 245,
+      "reference_Delta8": -0.00020333716597545898,
+      "rho": 0.25,
+      "scenario": "A"
+    },
+    "A_rho0.25_n70_100": {
+      "CI_high_below_zero": {
+        "binomial_se": 0.0,
+        "frequency": 0.0
+      },
+      "CI_low_above_zero": {
+        "binomial_se": 0.0046983054470813275,
+        "frequency": 0.006666666666666667
+      },
+      "Delta8": {
+        "mean": 0.007006451715344686,
+        "n": 300,
+        "p2.5": -0.10059804365204168,
+        "p50": 0.009203086340695617,
+        "p97.5": 0.12017256136173314,
+        "sd": 0.0565669829768518
+      },
+      "datasets": 300,
+      "interval_covers_reference": {
+        "binomial_se": 0.004698305447081342,
+        "frequency": 0.9933333333333333
+      },
+      "interval_covers_zero": {
+        "binomial_se": 0.004698305447081342,
+        "frequency": 0.9933333333333333
+      },
+      "mean_interval_width": 0.2708741908436594,
+      "n_id": 70,
+      "n_ood": 100,
+      "reference_Delta8": -0.00020333716597545898,
+      "rho": 0.25,
+      "scenario": "A"
+    },
+    "A_rho0.5_n66_245": {
+      "CI_high_below_zero": {
+        "binomial_se": 0.0046983054470813275,
+        "frequency": 0.006666666666666667
+      },
+      "CI_low_above_zero": {
+        "binomial_se": 0.012583057392117916,
+        "frequency": 0.05
+      },
+      "Delta8": {
+        "mean": 0.005500202958029766,
+        "n": 300,
+        "p2.5": -0.13959565576598007,
+        "p50": 0.005023135682628943,
+        "p97.5": 0.16653394944870653,
+        "sd": 0.08098009679744292
+      },
+      "datasets": 300,
+      "interval_covers_reference": {
+        "binomial_se": 0.014401645996461909,
+        "frequency": 0.9333333333333333
+      },
+      "interval_covers_zero": {
+        "binomial_se": 0.013348602368232605,
+        "frequency": 0.9433333333333334
+      },
+      "mean_interval_width": 0.32765250645089633,
+      "n_id": 66,
+      "n_ood": 245,
+      "reference_Delta8": -0.0018719238452533488,
+      "rho": 0.5,
+      "scenario": "A"
+    },
+    "A_rho0.5_n70_100": {
+      "CI_high_below_zero": {
+        "binomial_se": 0.0046983054470813275,
+        "frequency": 0.006666666666666667
+      },
+      "CI_low_above_zero": {
+        "binomial_se": 0.005744562646538029,
+        "frequency": 0.01
+      },
+      "Delta8": {
+        "mean": 0.0010622041325019618,
+        "n": 300,
+        "p2.5": -0.16439065948775897,
+        "p50": 0.004781214320284433,
+        "p97.5": 0.15212004088851108,
+        "sd": 0.08168633886200145
+      },
+      "datasets": 300,
+      "interval_covers_reference": {
+        "binomial_se": 0.007391185942027828,
+        "frequency": 0.9833333333333333
+      },
+      "interval_covers_zero": {
+        "binomial_se": 0.007391185942027828,
+        "frequency": 0.9833333333333333
+      },
+      "mean_interval_width": 0.3740854718304158,
+      "n_id": 70,
+      "n_ood": 100,
+      "reference_Delta8": -0.0018719238452533488,
+      "rho": 0.5,
+      "scenario": "A"
+    }
+  },
+  "created_at": "2026-11-16T21:56:30.992204+03:00",
+  "experiment_id": "EXP-0007",
+  "recalibrator": "affine_L1",
+  "registered_bootstrap_B": 2000,
+  "task_id": "TASK-052"
+}

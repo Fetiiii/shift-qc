@@ -16,5 +16,5 @@ the declared facts; no unrelated BAP policy was applied to this independent work
 
 The author approved the code-only public release after code/security/integrity gates.
 The GitHub repository is public at https://github.com/Fetiiii/shift-qc. The existing
-v1.0.0 tag is an unpublished historical candidate; v1.0.1 is the first intended
-published archive. No Zenodo DOI had been assigned at this metadata commit.
+v1.0.0 tag is an unpublished historical candidate; v1.0.1 is the first published
+archive (10.5281/zenodo.23068487); v1.1.0 adds the synthetic EXP-0007 study.

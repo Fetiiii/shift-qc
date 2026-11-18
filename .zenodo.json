@@ -1,7 +1,7 @@
 {
   "title": "SHIFT-QC software and public-safe reproducibility materials",
   "upload_type": "software",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "creators": [
     {
       "name": "Eraslan, Feti Çağrı",
@@ -9,7 +9,7 @@
       "affiliation": "Istanbul University, Faculty of Computer and Information Technologies"
     }
   ],
-  "description": "Original SHIFT-QC software and public-safe reproducibility materials accompanying the SHIFT-QC manuscript. This is a software archive, not a source medical dataset or patient-derived dataset deposit. Source images, masks, patient-level/source-derived artefacts, unresolved aggregate ledgers, and trained weights are excluded. Full source-data-dependent reproduction requires independently obtaining source datasets from their official custodians. MIT covers original SHIFT-QC software only; documentation, citation metadata, manifests and conceptual figures retain separate rights as described in DATA_AND_ARTIFACT_RIGHTS.md. At this metadata commit, the manuscript had not been submitted to or accepted by Medical Image Analysis and no Zenodo DOI had been assigned.",
+  "description": "Original SHIFT-QC software and public-safe reproducibility materials accompanying the SHIFT-QC manuscript. This is a software archive, not a source medical dataset or patient-derived dataset deposit. Source images, masks, patient-level/source-derived artefacts, unresolved aggregate ledgers, and trained weights are excluded. Full source-data-dependent reproduction requires independently obtaining source datasets from their official custodians. MIT covers original SHIFT-QC software only; documentation, citation metadata, manifests and conceptual figures retain separate rights as described in DATA_AND_ARTIFACT_RIGHTS.md. Version 1.1.0 adds the synthetic finite-sample study of the R5/R8 estimators (protocol, code, tests and its four result files), which uses simulated data only.",
   "access_right": "open",
   "license": "mit",
   "keywords": [

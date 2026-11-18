@@ -1,8 +1,8 @@
 cff-version: 1.2.0
-message: "Cite the first published software archive v1.0.1 using its version-specific Zenodo DOI. The underlying software package version remains 1.0.0."
+message: "Cite the version-specific Zenodo DOI of the release you used. v1.1.0 adds the synthetic finite-sample study of the R5/R8 estimators; all versions share the concept DOI 10.5281/zenodo.23068486."
 title: "SHIFT-QC reproducibility software"
 type: software
-version: "1.0.0"
+version: "1.1.0"
 authors:
   - family-names: Eraslan
     given-names: "Feti Çağrı"

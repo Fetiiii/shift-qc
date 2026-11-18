@@ -1,0 +1,31 @@
+{
+  "experiment_id": "EXP-0007",
+  "task_id": "TASK-052",
+  "decision": "D-041",
+  "protocol": "docs/EXP0007_R8_SYNTHETIC_PROTOCOL.md",
+  "freeze_tag": "pre-exp0007-synthetic-freeze",
+  "output_dir": "outputs/EXP-0007",
+  "root_seed": 2026,
+  "workers": 20,
+  "cells": [
+    {"scenario": "A", "rho": 0.0},
+    {"scenario": "A", "rho": 0.25},
+    {"scenario": "A", "rho": 0.5},
+    {"scenario": "B", "rho": 0.5},
+    {"scenario": "C", "rho": 0.5},
+    {"scenario": "D", "rho": 0.5},
+    {"scenario": "E", "rho": 0.5},
+    {"scenario": "F", "rho": 0.5}
+  ],
+  "sample_size_pairs": [[66, 245], [70, 100], [245, 245], [66, 66], [245, 66]],
+  "reference": {"n_per_domain": 20000, "draws": 20},
+  "tier1": {"datasets_per_cell": 2000, "block": 100},
+  "tier2": {
+    "cells": [{"scenario": "A", "rho": 0.25}, {"scenario": "A", "rho": 0.5}],
+    "sample_size_pairs": [[66, 245], [70, 100]],
+    "datasets_per_cell": 300,
+    "bootstrap_B": 500,
+    "registered_bootstrap_B": 2000,
+    "recalibrator": "affine_L1"
+  }
+}
